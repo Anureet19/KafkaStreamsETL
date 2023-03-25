@@ -1,35 +1,30 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### IntelliJ IDEA ###
+# IntelliJ IDEA
 .idea/
-*.iws
 *.iml
 *.ipr
+*.iws
+.idea_modules/
+out/
+target/
+gen/
+bin/
+*.log
+*.log.*
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.pdf
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven
+log/
+target/
+release/
+dependency-reduced-pom.xml
+buildNumber.properties
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+# Kafka
+logs/
+*.log
+*.pid
+data/
